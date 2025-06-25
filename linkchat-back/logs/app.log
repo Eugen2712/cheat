@@ -1,0 +1,72 @@
+2025-06-24 21:55:09 INFO  c.p.l.LinkchatBackApplication - Starting LinkchatBackApplication using Java 23.0.2 with PID 81146 (/Users/eugenplotnic/Develop/linkchat-back/target/classes started by eugenplotnic in /Users/eugenplotnic/Develop/linkchat-back)
+2025-06-24 21:55:10 INFO  c.p.l.LinkchatBackApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-24 21:55:11 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-24 21:55:15 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authProvider
+2025-06-24 21:55:16 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-06-24 21:55:17 DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-24 21:55:18 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-24 21:55:19 INFO  c.p.l.LinkchatBackApplication - Started LinkchatBackApplication in 10.916 seconds (process running for 11.126)
+2025-06-24 21:56:08 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/index.html
+2025-06-24 21:56:08 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/index.html
+2025-06-24 21:56:09 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/index.html
+2025-06-24 21:56:09 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/index.html
+2025-06-24 21:56:10 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:10 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:10 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/swagger-initializer.js
+2025-06-24 21:56:10 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/swagger-ui.css
+2025-06-24 21:56:10 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/swagger-initializer.js
+2025-06-24 21:56:11 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/swagger-ui.css
+2025-06-24 21:56:11 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:12 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:12 DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-06-24 21:56:12 DEBUG o.s.security.web.FilterChainProxy - Securing GET /apple-touch-icon-precomposed.png
+2025-06-24 21:56:12 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/favicon-16x16.png
+2025-06-24 21:56:12 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/favicon-32x32.png
+2025-06-24 21:56:13 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:13 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/favicon-16x16.png
+2025-06-24 21:56:13 DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-06-24 21:56:13 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/favicon-32x32.png
+2025-06-24 21:56:13 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://localhost:8080/apple-touch-icon-precomposed.png?continue to session
+2025-06-24 21:56:13 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:14 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:14 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:14 DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - Trying to match using Ant [pattern='/api/**']
+2025-06-24 21:56:14 DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-06-24 21:56:15 DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@15db4dc, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-06-24 21:56:15 DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-06-24 21:56:15 DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - No match found. Using default entry point org.springframework.security.web.authentication.HttpStatusEntryPoint@dfd9084
+2025-06-24 21:56:16 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 133 ms
+2025-06-24 21:56:16 DEBUG o.s.security.web.FilterChainProxy - Securing GET /apple-touch-icon.png
+2025-06-24 21:56:17 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:17 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 21:56:18 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://localhost:8080/apple-touch-icon.png?continue to session
+2025-06-24 21:56:18 DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - Trying to match using Ant [pattern='/api/**']
+2025-06-24 21:56:19 DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@15db4dc, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-06-24 21:56:20 DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - No match found. Using default entry point org.springframework.security.web.authentication.HttpStatusEntryPoint@dfd9084
+2025-06-24 22:00:30 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/index.html
+2025-06-24 22:00:31 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/index.html
+2025-06-24 22:00:31 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 22:00:32 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/swagger-initializer.js
+2025-06-24 22:00:32 DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/swagger-ui/swagger-ui.css
+2025-06-24 22:00:32 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/swagger-initializer.js
+2025-06-24 22:00:33 DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/swagger-ui/swagger-ui.css
+2025-06-24 22:00:33 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 22:00:34 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 22:00:34 DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-06-24 22:00:35 DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-06-24 22:00:35 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 22:00:36 DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-06-24 22:00:37 DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-06-24 22:00:37 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-24 22:02:17 INFO  c.p.l.LinkchatBackApplication - Starting LinkchatBackApplication using Java 23.0.2 with PID 81256 (/Users/eugenplotnic/Develop/linkchat-back/target/classes started by eugenplotnic in /Users/eugenplotnic/Develop/linkchat-back)
+2025-06-24 22:08:45 INFO  c.p.l.LinkchatBackApplication - Starting LinkchatBackApplication using Java 23.0.2 with PID 81320 (/Users/eugenplotnic/Develop/linkchat-back/target/classes started by eugenplotnic in /Users/eugenplotnic/Develop/linkchat-back)
+2025-06-24 22:08:46 INFO  c.p.l.LinkchatBackApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-24 22:08:48 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-24 22:08:52 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authProvider
+2025-06-24 22:08:52 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-06-24 22:08:53 DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-24 22:08:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-24 22:08:55 INFO  c.p.l.LinkchatBackApplication - Started LinkchatBackApplication in 10.478 seconds (process running for 10.73)
+2025-06-24 22:08:59 DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/sendEmailTemplate
+2025-06-24 22:09:00 DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/sendEmailTemplate
+2025-06-24 22:09:02 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
