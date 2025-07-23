@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8" />
+    <title layout:title-pattern="$CONTENT_TITLE - LinkChat">LinkChat</title>
+    <link rel="stylesheet" th:href="@{/styles/dashboard.css}" />
+</head>
+<body>
+<header th:replace="fragments/header :: header"></header>
+
+<main layout:fragment="content" class="main">
+    <!-- Content -->
+</main>
+
+<div layout:fragment="page-scripts"></div>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+</body>
+</html>

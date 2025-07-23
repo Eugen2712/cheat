@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:fragment="header" class="header">
+    <div class="logo">
+        <a th:href="@{/ui/dashboard}" class="logo-link">LinkChat</a>
+    </div>
+    <nav class="nav-links">
+        <a th:href="@{/ui/dashboard}">Dashboard</a>
+        <a th:href="@{/ui/user}">UsersManagement</a>
+        <a th:href="@{/ui/chats-management}">Chats</a>
+        <form action="/ui/logout" method="post">
+            <button type="submit" class="logout-link-btn">Logout</button>
+        </form>
+    </nav>
+</div>
+</body>
+</html>
